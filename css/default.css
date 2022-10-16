@@ -1,3 +1,5 @@
+                /** Začátek tmavého motivu **/
+
 @media (prefers-color-scheme: dark) {
         
     /* Barva celé stránky */
@@ -37,7 +39,7 @@
         font-family: "sans-serif";
         width: 500px;
         font-size: 24px;
-        color: #666
+        color: #CF8177 /* Originál: #666 */
     }
 
     #messages {
@@ -72,17 +74,21 @@
         width: 440px;
         margin-top: 60px !important;
         height: 400px;
-        color: #333;
+        color: #E3F8E1;
         font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
         font-size: 12px
     }
 
+    /* String - jmeno */
+
     #code .string {
-        color: #2a36ff
+        color: #A163E3 /* Originál: #2a36ff */
     }
 
+    /* Klíčové slova - True */
+
     #code .keyword {
-        color: #7f0055;
+        color: #FEEA00;     /* ORIGINÁL: #7f0055 */
         font-weight: bold
     }
 
@@ -95,7 +101,7 @@
     }
         /* Hastagy - Comenty */
     #code .comments {
-        color: #3f7f5f
+        color: #52B763      /* Originál: #3f7f5f */
     }
 
     #copyright {
@@ -119,13 +125,15 @@
     }
 }
 
+                /** Začátek světlého motivu **/
+
 @media (prefers-color-scheme: light) {
 
     /* Barva celé stránky */
     body {
         margin: 0;
         padding: 0;
-        background: #fdc9d1;
+        background: #F3DDCE;
         font-size: 12px;
         overflow: auto
     }
@@ -158,7 +166,7 @@
         font-family: "sans-serif";
         width: 500px;
         font-size: 24px;
-        color: #666
+        color: #ED6A5A
     }
 
     #messages {
@@ -193,7 +201,7 @@
         width: 440px;
         margin-top: 60px !important;
         height: 400px;
-        color: #333;
+        color: #9A475E;
         font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
         font-size: 12px
     }
@@ -216,7 +224,7 @@
     }
         /* Hastagy - Comenty */
     #code .comments {
-        color: #3f7f5f
+        color: #078834
     }
 
     #copyright {
