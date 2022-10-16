@@ -6,7 +6,7 @@
     body {
         margin: 0;
         padding: 0;
-        background: #272822;
+        background: #272822; /* Originál: #fdc9d1 */
         font-size: 12px;
         overflow: auto
     }
@@ -74,7 +74,7 @@
         width: 440px;
         margin-top: 60px !important;
         height: 400px;
-        color: #E3F8E1;
+        color: #E3F8E1; /* Originál: #333 */
         font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
         font-size: 12px
     }
@@ -133,7 +133,7 @@
     body {
         margin: 0;
         padding: 0;
-        background: #F3DDCE;
+        background: #F3DDCE;  /* Originál: #fdc9d1 */
         font-size: 12px;
         overflow: auto
     }
@@ -166,7 +166,7 @@
         font-family: "sans-serif";
         width: 500px;
         font-size: 24px;
-        color: #ED6A5A
+        color: #ED6A5A /* Originál: #666 */
     }
 
     #messages {
@@ -201,17 +201,19 @@
         width: 440px;
         margin-top: 60px !important;
         height: 400px;
-        color: #9A475E;
+        color: #9A475E; /* Originál: #333 */
         font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
         font-size: 12px
     }
 
     #code .string {
-        color: #2a36ff
+        color: #2a36ff /* Originál: #2a36ff */
     }
 
+        /* Klíčové slova - True */
+
     #code .keyword {
-        color: #F56416;
+        color: #F56416;     /* ORIGINÁL: #7f0055 */
         font-weight: bold
     }
 
@@ -224,7 +226,7 @@
     }
         /* Hastagy - Comenty */
     #code .comments {
-        color: #078834
+        color: #078834       /* Originál: #3f7f5f */
     }
 
     #copyright {
